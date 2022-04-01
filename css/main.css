@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+  font-family: "sans-serrif";
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 2rem;
+}
+
+header {
+  background-color: #e2e2e2;
+}
+
+nav {
+  color: #0074d9;
+}
