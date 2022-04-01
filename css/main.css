@@ -15,10 +15,6 @@ img {
 
 body {
   margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
 }
 
 header {
@@ -26,6 +22,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
 }
 
 header h1 {
@@ -47,10 +44,15 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-decoration: none;
   list-style-type: none;
 }
 
 nav a {
   color: #0074d9;
+  padding: .75em 1em .6em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #0074d9;
 }
