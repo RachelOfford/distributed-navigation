@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "sans-serrif";
+  font-family: "Sans-Serif";
   line-height: 1.5;
   background-color: #fff;
 }
@@ -13,10 +13,34 @@ img {
   width: 2rem;
 }
 
-header {
-  background-color: #e2e2e2;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-nav {
+header {
+  background-color: #e2e2e2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+
+}
+
+header img {
+
+}
+
+header p {
+
+}
+
+nav ul {
+  display: flex;
+}
+
+nav a {
   color: #0074d9;
 }
