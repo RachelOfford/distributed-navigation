@@ -15,7 +15,7 @@ img {
 
 body {
   margin: 0;
-  padding: 1.5rem;
+  padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
