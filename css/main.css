@@ -26,15 +26,17 @@ header {
 }
 
 header h1 {
-
+  padding-right: 1rem;
 }
 
 header img {
-
+  padding-left: 1rem;
 }
 
 header p {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav ul {
