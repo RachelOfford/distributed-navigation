@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Sans-Serif;
+  font-family: sans-serif;
   line-height: 1.5;
   background-color: #fff;
 }
@@ -26,11 +26,12 @@ header {
 }
 
 header h1 {
-
+  margin: 0;
 }
 
 header img {
-
+  order: -1;
+  margin-right: .5rem;
 }
 
 header p {
