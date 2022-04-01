@@ -15,10 +15,7 @@ img {
 
 body {
   margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
+  padding: 1.5rem;
 }
 
 header {
@@ -26,6 +23,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
 }
 
 header h1 {
