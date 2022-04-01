@@ -14,7 +14,7 @@ img {
 }
 
 body {
-  margin: 0;
+  margin: .5rem;
   padding: 0;
 }
 
@@ -26,12 +26,11 @@ header {
 }
 
 header h1 {
-  margin-right: 1rem;
+  padding: auto;
 }
 
 header img {
   order: -1;
-  padding-left: .5rem
 }
 
 header p {
