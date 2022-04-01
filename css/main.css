@@ -41,6 +41,8 @@ header p {
 
 nav ul {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav a {
